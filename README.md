@@ -61,7 +61,6 @@ then you should clone the repoitory and open the folder in your terminal
 ## 4.Functionalities
 
 You can test the implementation by just using the command `python main.py` and see how it works by default.
-By default the implementation calculates the mean and standart deviation for the number of correctly labeld data various trials.
 
 
 #### Plot the number of correct prediction
