@@ -46,7 +46,7 @@ This data is presented in figure.
 
 ![picture/structure.png](picture/structure.png)
 
-* in the current version the second ax also shows the relative standart deviation
+
 
 ## 3. Requirenments
 
@@ -67,6 +67,8 @@ You can test the implementation by just using the command `python main.py` and s
 
 
 ![picture/plot.png](picture/plot.png)
+
+* in the current version the second ax also shows the relative standart deviation
 
 
 #### Change values
