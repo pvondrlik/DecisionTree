@@ -144,5 +144,12 @@ would increase the accuracy of the Decision tree.
   else: just do not allow a split by the values of this column
   
 ## 6. Interpretation
-There does not seem to be a significant differnce: Hoeever, we can see that labeling data with a Decision tree bulid by an ID3-algorithm is better in predicting a label as just randomly chosing a label
+There does not seem to be a significant differnce in the relative correctnes of labeling data. However, we can see that labeling data with a Decision tree bulid by an ID3-algorithm is better in predicting a label than randomly chosing a label. 
+
+
+## Sources
+drug200.csv - https://www.kaggle.com/ibrahimbahbah/drug200
+student-mat.csv - https://www.kaggle.com/uciml/student-alcohol-consumption
+
+
 
