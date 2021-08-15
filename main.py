@@ -108,14 +108,21 @@ def main(df, print_label=None, has_col_index=True, max_branching=5, max_depth = 
 
 
 
+""""
+In this part you can change values. For more information have a look into the README.
 
+#examples:
+data = "data/drug200.csv" source: https://www.kaggle.com/ibrahimbahbah/drug200
+data = "data/student-mat.csv"  source: https://www.kaggle.com/uciml/student-alcohol-consumption
+
+#main(df, "drugC")
+#main(df, max_branching=2, max_depth = 10, trials=4, ratio_list=[.8])
+
+""""
 
 
 if __name__ == "__main__":
-    data = "data/student-mat.csv"
-    data2 = "data/pokemon_no_duplicates.csv"
-    data3 = "data/drug200.csv"
-    df = np.loadtxt(data3, dtype=str, delimiter=',')
-    #main(df)
+    data = "data/drug200.csv"
+    df = np.loadtxt(data, dtype=str, delimiter=',')
     main(df, "drugC")
     pass
