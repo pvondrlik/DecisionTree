@@ -39,7 +39,7 @@ The implementation is structured in a main document that contains the main funct
 and calls a function to calculate the mean and standart deviation of
 
 
-![structure/plot.png](structure/plot.png)
+![picture/structure.png](picture/structure.png)
 
 
 ## 3. Requirenments
