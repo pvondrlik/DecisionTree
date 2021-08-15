@@ -36,11 +36,17 @@ The ID3-algorithm creates a decision tree by analyzing a trainingset.
       - The data has no Index for the Columns -> no Problem, "prepare_data.prepare()" takes care of this issue
 
 The implementation is structured in a main document that contains the main function
-and calls a function to calculate the mean and standart deviation of
+and calls a function to calculate the mean and standart deviation of different ratio between test- and trainingset.
+This is calculated by runing the trial several times.
+A trial includes preparing the data, training a tree and counting the ammount of correct predictions.
+This data is presented in figure.
+
+
 
 
 ![picture/structure.png](picture/structure.png)
 
+*in the current version the second ax also shows the relative standart deviation
 
 ## 3. Requirenments
 
@@ -56,8 +62,6 @@ then you should clone the repoitory and open the folder in your terminal
 
 You can test the implementation by just using the command `python main.py` and see how it works by default.
 By default the implementation calculates the mean and standart deviation for the number of correctly labeld data various trials.
-A trial includes preparing the data, training a tree and counting the ammount of correct predictions.
-This is done for different sets of training and test data and presented in a diagram.
 
 
 #### Plot the number of correct prediction
