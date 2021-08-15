@@ -54,7 +54,7 @@ then you should clone the repoitory and open the folder in your terminal
 
 ## 4.Functionalities
 
-You can test the implementation by just using the command `python test_decicionTree.py` and see how it works by default.
+You can test the implementation by just using the command `python main.py` and see how it works by default.
 By default the implementation calculates the mean and standart deviation for the number of correctly labeld data various trials.
 A trial includes preparing the data, training a tree and counting the ammount of correct predictions.
 This is done for different sets of training and test data and presented in a diagram.
@@ -67,7 +67,7 @@ This is done for different sets of training and test data and presented in a dia
 
 
 #### Change values
-You can change values in the test_decicionTree.py document in the main() function.
+You can change values in the main.py document.
 You can also use differnt data files or try to  use your own data (but have a look at the Data requirenments in the Imput format section).
 
  You can change for example values, to manipulate how the tree is trained:
