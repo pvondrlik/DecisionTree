@@ -46,7 +46,7 @@ This data is presented in figure.
 
 ![picture/structure.png](picture/structure.png)
 
-*in the current version the second ax also shows the relative standart deviation
+* in the current version the second ax also shows the relative standart deviation
 
 ## 3. Requirenments
 
@@ -129,7 +129,7 @@ main(df, print_label=None, has_col_index=True, max_branching=5, max_depth =4 ;tr
 
 
 
-## 5. Probems and Troubleshootings
+## 5. Problems and Troubleshootings
 
 #### Problems with data and (not optimal) solutions
 Some Problems occur when working with DecisionTrees.
