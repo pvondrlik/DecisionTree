@@ -56,7 +56,7 @@ if not, you can run:
 
     $ pip install -r requirements.txt
 
-then you should clone the repoitory and open the folder in your terminal
+then you should clone the repository and open the folder in your terminal.
 
 ## 4.Functionalities
 
