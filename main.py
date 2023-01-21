@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 
 from prepare_data import prepare
-from Classes/Decision_Tree import Decision_Tree
+from Decision_Tree import Decision_Tree
 
 """This library offers different possibilities :
     you can:
@@ -118,7 +118,7 @@ data = "Data/student-mat.csv"  source: https://www.kaggle.com/uciml/student-alco
 #main(df, "drugC")
 #main(df, max_branching=2, max_depth = 10, trials=4, ratio_list=[.8])
 
-""""
+"""
 
 
 if __name__ == "__main__":
